@@ -145,7 +145,7 @@ def detect_print_function_violation_linter(
 # docstring so that this function is correctly documented by an software
 # engineer using it.
 
-def count_operator_in_assignments(source_code: str, operator_type: type) -> int:
+def count_operator_in_assignments(source_code, operator_type):
     """Count the number of times a specific operator is used in assignment statements."""
     # TODO: count the number of specific operator types inside of the provided source code
     tree = ast.parse(source_code)
