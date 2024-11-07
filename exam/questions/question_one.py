@@ -1,6 +1,6 @@
 """Question One: Executable Examination."""
 
-# Note: The imports in the following source code block may no longer
+# TODO: The imports in the following source code block may no longer
 # adhere to the industry best practices for Python source code.
 # You must reorganize and/or add the imports so that they adhere
 # to the industry best practices for Python source code.
@@ -51,11 +51,11 @@ from typing import List
 #     are present in the first coverage report but not in the second
 #     coverage report, based on the id and covered status
 
-# Note: These functions may not not have all of the correct type annotations for
+# TODO: These functions may not not have all of the correct type annotations for
 # certain variables. You must add all of any needed type annotations so that the
 # function and any code that uses it passes the type checker.
 
-# Note: These functions may not have a docstring and thus it may not adhere to
+# TODO: These functions may not have a docstring and thus it may not adhere to
 # industry best practices for Python source code. You may need to add a
 # docstring so that this function is correctly documented by an software
 # engineer using it.
@@ -112,11 +112,11 @@ def compute_coverage_difference(
 # --> If the coverage report is empty, the function should return 0.0 to
 #     indicate that no items were covered when the tests were run
 
-# Note: These functions may not not have all of the correct type annotations for
+# TODO: These functions may not not have all of the correct type annotations for
 # certain variables. You must add all of any needed type annotations so that the
 # function and any code that uses it passes the type checker.
 
-# Note: These functions may not have a docstring and thus it may not adhere to
+# TODO: These functions may not have a docstring and thus it may not adhere to
 # industry best practices for Python source code. You may need to add a
 # docstring so that this function is correctly documented by an software
 # engineer using it.
@@ -143,14 +143,14 @@ def calculate_coverage_score(coverage_items: List[CoverageItem]) -> float:
 #     as the number of detected mutants divided by the total number of mutants
 # --> The mutation score is defined to be 0.0 if no mutants were detected
 
-# Note: Your implementation of this function should not modify the existing
+# TODO: Your implementation of this function should not modify the existing
 # implementation of the Mutant class.
 
-# Note: This function may not not have all of the correct type annotations for
+# TODO: This function may not not have all of the correct type annotations for
 # certain variables. You must add all of any needed type annotations
 # so that the function and any code that uses it passes the type checker.
 
-# Note: This function may not have a docstring and thus it may not adhere
+# TODO: This function may not have a docstring and thus it may not adhere
 # to industry best practices for Python source code. You may need to add a docstring
 # so that this function is correctly documented by an software engineer using it.
 
@@ -199,14 +199,14 @@ def compute_mutation_score(mutants):
 #     and thus must be ignored in both the numerator and the denominator
 #     when computing the mutation score
 
-# Note: This function should use the same implementation of the Mutant class that
+# TODO: This function should use the same implementation of the Mutant class that
 # was defined and used for the previous part of this question.
 
-# Note: This function may not not have all of the correct type annotations for
+# TODO: This function may not not have all of the correct type annotations for
 # certain variables. You must add all of any needed type annotations
 # so that the function and any code that uses it passes the type checker.
 
-# Note: This function may not have a docstring and thus it may not adhere
+# TODO: This function may not have a docstring and thus it may not adhere
 # to industry best practices for Python source code. You may need to add a docstring
 # so that this function is correctly documented by an software engineer using it.
 
